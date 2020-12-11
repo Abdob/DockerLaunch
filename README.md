@@ -18,4 +18,6 @@ Build the app container using the base container
     cd hello-world
     docker build . -t hello-world:1.0.0
 
-
+Run the app container
+    
+    docker run --rm -it hello-world:1.0.0
